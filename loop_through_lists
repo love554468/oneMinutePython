@@ -1,0 +1,14 @@
+myllist = [1,2,3]
+
+i = len(myllist) - 1
+
+#print(i)
+
+while i >= 0:
+    print(myllist[i])
+    i = i-1
+
+
+a = myllist.reverse()
+
+print(a)
